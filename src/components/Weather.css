@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px){
+    body{
+        text-align: center;
+        width:100%;
+        height: 100vh;
+        margin-top: 180px;
+        background-image: url("https://media4.giphy.com/media/3o7WIB00yXujVt4WEo/giphy.gif?cid=ecf05e47xi0m39cim96rtzozxclt4m7u02ae8v88m1uicm2o&rid=giphy.gif&ct=g");
+        background-size: cover;
+        background-position:right;
+    }
+ 
+label{
+    width: 70%;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    margin: auto auto;
+}
+input{
+    display: block;
+    margin: auto auto;
+  border-radius: 0.2rem;
+  background-color: transparent;
+  border: none;
+  display: block;
+  border-bottom: 3px solid white;
+  transition: all 0.3s;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Exo', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.date{
+    margin-top: 250px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+.lazy_loading{
+    color: white;
+}
+
+.error{
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    margin-bottom: -40px;
+    margin-top: 30px;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    .weather{
+        display: flex;
+    }
+    label{
+        display: block;
+        font-family: 'Exo', sans-serif;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 50px;
+        margin: auto auto;
+        margin-left: -600px;
+        margin-top: 200px;
+    }
+
+    input{
+        display: block;
+        margin: auto auto;
+      border-radius: 0.2rem;
+      background-color: transparent;
+      border: none;
+      display: block;
+      border-bottom: 3px solid white;
+      transition: all 0.3s;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-family: 'Exo', sans-serif;
+      color: white;
+      font-size: 20px;
+      margin-left: -500px;
+    }
+
+    .error{
+        color: white;
+        font-family: 'Exo', sans-serif;
+        font-size: 30px;
+        margin-bottom: -40px;
+        margin-top: 30px;
+        margin-left: -500px;
+    }
+
+    .btn{
+        margin-left: -500px; 
+    }
+
+    .date{
+        margin-top: 670px;
+        margin-left: 500px;
+        color: white;
+        font-family: 'Exo', sans-serif;
+    }
+}

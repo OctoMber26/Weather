@@ -1,0 +1,87 @@
+@media only screen and (max-width: 600px){
+   
+    .temperature{
+        color: white;
+        font-size: 60px;
+    }
+
+    .condition{
+        width: 100%;
+        color: white;
+        font-size: 50px;
+    }
+
+    .fas{
+        width: 100%;
+        color: white;
+        font-size: 50px;
+    }
+
+    .far{
+        width: 100%;
+        color: white;
+        font-size: 50px;
+    }
+
+    .city-name{
+        width: 100%;
+        color: white;
+        font-size: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .main{
+        text-align: center;
+        width: 50%;
+        height: 100vh;
+        margin-top: 180px;
+        background-image: url("https://media4.giphy.com/media/3o7WIB00yXujVt4WEo/giphy.gif?cid=ecf05e47xi0m39cim96rtzozxclt4m7u02ae8v88m1uicm2o&rid=giphy.gif&ct=g");
+        background-size: cover;
+        background-position:right;
+        margin-top: -100px;
+    }
+
+    .city-name{
+        color: white;
+        font-size: 60px;
+        position: relative;
+        left: 600px;
+    }
+
+    .condition{
+        display: block;
+        color: white;
+        font-size: 60px;
+        position: relative;
+        left: 600px;
+        margin-top: 100px;
+    }
+
+    .fas{
+        display: block;
+        color: white;
+        font-size: 50px;
+        position: relative;
+        left: 600px;
+        margin-top: 100px;
+    }
+
+    .far{
+        display: block;
+        color: white;
+        font-size: 50px;
+        position: relative;
+        left: 600px;
+        margin-top: 100px;
+    }
+
+    .temperature{
+        color: white;
+        font-size: 60px;
+        position: relative;
+        left: 600px;
+        margin-top: 100px;
+    }
+}
